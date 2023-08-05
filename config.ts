@@ -11,9 +11,9 @@ import { Config } from "./src/types/config";
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: "John",
+  name: "Maksim",
   openInNewTab: true,
-  title: "Bento",
+  title: "catppuccin-mocha",
 
   // Clock
   twelveHourFormat: false,
@@ -42,7 +42,7 @@ export const config: Config = {
 
   // Search Bar
   searchBar: true,
-  searchEngine: "google", // google, ddg
+  searchEngine: "ddg", // google, ddg
   barPlaceholder: "", // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
 
