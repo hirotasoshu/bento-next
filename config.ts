@@ -52,7 +52,7 @@ export const config: Config = {
   greetingEvening: "Good evening,",
   greetingNight: "Sweet dreams,",
 
-  // Layout
+  // LayoutVITE
   layout: "bento", // 'bento', 'lists', 'buttons'
 
   // Weather
@@ -70,7 +70,7 @@ export const config: Config = {
   // "location" - Switches based on local sunrise/sunset (requires OpenWeatherMap API key)
   // "preset" - Switches based on set hours
   // "none" - No automatic switching
-  autoTheme: "system",
+  autoTheme: "location",
 
   // If autoTheme is set to "preset", set the hours below.
   darkModeOnTime: "18:30",
@@ -99,14 +99,14 @@ export const config: Config = {
         url: "https://github.com/", // provide a link to the page.
       },
       {
-        name: "Mail",
-        icon: "envelope",
-        url: "https://mail.protonmail.com/",
+        name: "Yandex cloud",
+        icon: "cloud",
+        url: "https://console.cloud.yandex.ru",
       },
       {
-        name: "Todoist",
+        name: "Tracker",
         icon: "list-ol",
-        url: "https://todoist.com",
+        url: "https://tracker.yandex.ru",
       },
       {
         name: "Calendar",
@@ -114,14 +114,14 @@ export const config: Config = {
         url: "https://calendar.google.com/calendar/r",
       },
       {
-        name: "Reddit",
+        name: "Libreddit",
         icon: "fab-reddit",
-        url: "https://reddit.com",
+        url: "http://v1490698.hosted-by-vdsina.ru/",
       },
       {
-        name: "Odysee",
+        name: "Youtube",
         icon: "fab-youtube",
-        url: "https://odysee.com/",
+        url: "https://www.youtube.com/",
       },
     ],
     // Second buttons group
@@ -166,23 +166,19 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        icon: "music", // Icon for the list to use. The same as the buttons.
+        icon: "film", // Icon for the list to use. The same as the buttons.
         links: [
           {
-            name: "Inspirational", // Display text for the link
-            url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", // URL to the page
+            name: "Kinopoisk", // Display text for the link
+            url: "https://hd.kinopoisk.ru/", // URL to the page
           },
           {
-            name: "Classic",
-            url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            name: "Animejoy",
+            url: "https://animejoy.ru/",
           },
           {
-            name: "Oldies",
-            url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          },
-          {
-            name: "Rock",
-            url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            name: "Zetflix",
+            url: "https://hd.zetflix.pro/",
           },
         ],
       },
@@ -194,16 +190,16 @@ export const config: Config = {
             url: "https://www.linkedin.com",
           },
           {
-            name: "Dribbble",
-            url: "https://www.dribbble.com",
+            name: "Habr",
+            url: "https://habr.com/ru/all/",
           },
           {
-            name: "Trello",
-            url: "https://www.trello.com",
+            name: "Hackernews",
+            url: "https://news.ycombinator.com/",
           },
           {
-            name: "Slack",
-            url: "https://www.slack.com",
+            name: "Distrowatch",
+            url: "https://distrowatch.com/",
           },
         ],
       },
